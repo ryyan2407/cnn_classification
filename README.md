@@ -16,7 +16,7 @@ Employing 3-fold cross-validation across these stages was vital for assessing th
 
 # Model Development
 
-The cornerstone of this project was the development of a custom Convolutional Neural Network (CNN) model. Eschewing popular pre-built architectures like ResNet or DenseNet, I ventured to create a model from the ground up. This involved intricately designing the number of layers, and filters, and selecting hyperparameters that would best capture the distinct features of animal images within the dataset.
+The cornerstone of this project was the development of a custom Convolutional Neural Network (CNN) model. Tasked with avoiding the use of popular pre-built architectures like ResNet or DenseNet, I ventured to create a model from the ground up. This involved intricately designing the number of layers, and filters, and selecting hyperparameters that would best capture the distinct features of animal images within the dataset.
 
 # Training and Evaluation
 
@@ -27,3 +27,5 @@ Evaluation was conducted through the generation of classification matrices for e
 # Convolutional Layer Visualization
 
 Perhaps one of the most enlightening aspects of the project was the visualization of the convolutional layers. This exercise allowed me to peel back the layers of the CNN, quite literally, and observe the features it deemed significant at various levels of abstraction. From simple edges and colors in the initial layers to complex patterns in the deeper layers, these visualizations provided a window into the model's 'thought' process.
+
+During the initial layers, we can see that the model attempts to grasp the basic shapes and edges. As we progress through the network's layers the model begins to identify more intricate features, like textures. In the concluding layers, the network can recognize the specific entities in the image, in this case, the particular animal. As my network was in the beginning of training phases, yet to discern nuanced features comprehensively.
